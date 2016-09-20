@@ -1,0 +1,51 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment android:id="@+id/map"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaleesacrawford.findnearme.MapsActivity" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/Hospitalbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospitals"
+            android:textColor="@color/abc_secondary_text_material_dark"
+            android:allowUndo="false"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:minWidth="120dp" />
+
+        <Button
+            android:id="@+id/Restaurantbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurants"
+            android:textColor="@color/abc_secondary_text_material_dark"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:minWidth="120dp" />
+
+        <Button
+            android:id="@+id/Hotelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:textColor="@color/abc_secondary_text_material_dark"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:minWidth="120dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
